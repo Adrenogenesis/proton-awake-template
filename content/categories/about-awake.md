@@ -1,5 +1,6 @@
 ---
-name: About Awake
-image: /logo.svg
+name: Protonwebmaster
+image: /uploads/logo-dev8.jpg
+description: Des solutions rapides pour vos projets.
 ---
-All about the Awake Nuxt Template
+
