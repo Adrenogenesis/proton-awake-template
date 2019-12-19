@@ -24,7 +24,7 @@ export default {
     },
     {
       name: 'Prestations',
-      link: '/prestations'
+      link: '/categories'
     },
     {
       name: 'Realisations',

@@ -10,7 +10,7 @@
 export default {
   head() {
     return {
-      title: `prestations | ${this.$siteConfig.siteName}`
+      title: `Categories | ${this.$siteConfig.siteName}`
     }
   }
 }
