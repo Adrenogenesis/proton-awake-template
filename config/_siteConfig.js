@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Protonwebmaster',
+  tagline: 'Developpeur web',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,8 +19,8 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
+      name: 'Services',
+      link: '/services'
     },
     {
       name: 'Contact',
