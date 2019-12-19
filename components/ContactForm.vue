@@ -1,10 +1,15 @@
 <template>
-  <form>
+  <form name="contact" method="POST" data-netlify="true">
     <!-- Name -->
     <div class="field">
-      <label class="label is-medium">Name</label>
+      <label class="label is-medium">Nom</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input
+          class="input is-medium"
+          type="text"
+          name="name"
+          placeholder="Nom Prenom"
+        />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -17,7 +22,8 @@
         <input
           class="input is-medium"
           type="email"
-          placeholder="you@email.com"
+          name="email"
+          placeholder="exemple@email.com"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
@@ -26,12 +32,13 @@
     </div>
     <!-- Subject -->
     <div class="field">
-      <label class="label is-medium">Subject</label>
+      <label class="label is-medium">Objet</label>
       <div class="control has-icons-left">
         <input
           class="input is-medium"
           type="text"
-          placeholder="Brief Summary"
+          name="message"
+          placeholder="Objet du message"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="briefcase" />
@@ -44,14 +51,15 @@
       <div class="control">
         <textarea
           class="textarea"
-          placeholder="Detailed description of your comment, request, etc"
+          name="message"
+          placeholder="Votre demande."
           rows="8"
         ></textarea>
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary">
-        Contact Us
+      <button class="button is-primary" type="submit">
+        Envoyer
       </button>
     </div>
   </form>

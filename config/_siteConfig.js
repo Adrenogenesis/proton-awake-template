@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Protonwebmaster',
-  tagline: 'Developpeur web',
+  tagline: 'Des solutions rapides pour vos projets.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,24 +19,24 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Services',
-      link: '/services'
+      name: 'Presentation',
+      link: '/presentation'
+    },
+    {
+      name: 'Prestations',
+      link: '/prestations'
+    },
+    {
+      name: 'Realisations',
+      link: 'https://www.exonet3i.com',
+      target: '_blank'
     },
     {
       name: 'Contact',
       link: '/contact'
     },
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
+      name: 'Ressources',
       link: 'https://awake-premium-lp.netlify.com/',
       target: '_blank'
     }
@@ -67,8 +67,8 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Demande d information',
+    btnText: 'Documentation',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
