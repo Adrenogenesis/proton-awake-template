@@ -1,9 +1,9 @@
 ---
-title: Accueil
-subtitle: Get Up and Running with Awake
+title: Solutions
+subtitle: Des choix étudié
 category:
   - About Awake
-author: Daniel Kelly
+author: Brodar Frédéric
 date: 2019-08-03T19:59:59.000Z
 featureImage: /uploads/artificial-intelligence-3382509_1280.png
 ---
