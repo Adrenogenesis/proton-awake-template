@@ -1,6 +1,6 @@
 ---
 title: Solutions
-subtitle: Des choix étudié
+subtitle: Dans le choix des technologies.
 category:
   - About Awake
 author: Brodar Frédéric
@@ -9,7 +9,7 @@ featureImage: /uploads/artificial-intelligence-3382509_1280.png
 ---
 Awake is a Nuxt.js template for generating a beautifully robust static site with blog. 
 
-# Features
+# Les technologies
 
 * Simple modern design based on the Bulma css framework (with unused css purged via [purgecss](https://www.purgecss.com/))
 * Site search
@@ -21,13 +21,11 @@ Awake is a Nuxt.js template for generating a beautifully robust static site with
 * Isolated Netlify CMS driver (with more CMS drivers planned for future) for easily migrating between various headless cms'
 * Images automatically resized for various screens and given srcsets
 
-# Use Awake on Netlify
+# Le deploiement
 
 Simply click the "Deploy to Netlify" button and then configure it to fit your needs as described below.
 
-[![Deploy to Netlify!!](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danielkellyio/awake-template)
-
-# Configuration
+Configuration
 
 Site configuration is found in `/config/_siteConfig.js`. Here you can customize site settings such as the site name, layout, disqus and mailchimp setup, image sizes and more. Any of these can be setup to use environment variables if you so desire, in order to be able to configure them directly from the Netlify interface. See the setup for google analytics which already uses an environment variable as an example of this.
 
