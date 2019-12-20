@@ -1,6 +1,7 @@
 <template>
-  <form name="contact" method="POST" data-netlify="true">
+  <form name="contact" method="POST" action="" netlify>
     <!-- Name -->
+    <input type="hidden" name="form-name" value="contact" />
     <div class="field">
       <label class="label is-medium">Nom</label>
       <div class="control has-icons-left">
@@ -58,7 +59,7 @@
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary" type="submit">
+      <button class="button is-primary" type="submit" value="Send message">
         Envoyer
       </button>
     </div>
