@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Presentation',
+      name: 'Présentation',
       link: '/presentation'
     },
     {
@@ -37,7 +37,7 @@ export default {
     },
     {
       name: 'Ressources',
-      link: 'https://awake-premium-lp.netlify.com/',
+      link: 'http://softsys.ml/',
       target: '_blank'
     }
   ],
