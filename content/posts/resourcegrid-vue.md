@@ -1,11 +1,11 @@
 ---
-title: ResourceGrid.vue
-subtitle: Easily Display Grid of Posts/Categories Throughout the Site
+title: Les moyens
+subtitle: Une disponibilité des ressources constante pour vos projets.
 category:
   - About Awake
-author: Daniel Kelly
+author: Brodar Frédéric
 date: 2019-08-02T04:27:56.800Z
-featureImage: /uploads/resource-grid-hero.jpg
+featureImage: /uploads/server.jpg
 ---
 The `ResourceGrid` powers the grid display of both posts and categories in the Awake template. It's a powerful, fast, and flexible component to grab a grid of any size or content when you need it.
 
@@ -19,6 +19,7 @@ The `ResourceGrid` powers the grid display of both posts and categories in the A
 There are 2 simple wrappers built around the `ResourceGrid` for easily displaying a categories grid or a posts grid, easily enough they are `CategoriesGrid` and `PostsGrid`.
 
 ## Examples
+
 ```
 <--! All posts in grid with 3 per row lazy loaded until no more-->
 <posts-grid />
