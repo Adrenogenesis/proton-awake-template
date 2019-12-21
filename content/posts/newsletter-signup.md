@@ -5,7 +5,7 @@ category:
   - Third Party Integrations
 author: BRODAR Frédéric
 date: 2019-08-01T03:49:49.295Z
-featureImage: /uploads/mailchimp.jpg
+featureImage: /uploads/engagement1.jpg
 ---
 ## 1. L'etude du projet
 
@@ -19,7 +19,7 @@ Go to "Campaigns" in the main navigation of the Mailchimp dashboard and then cli
 
 From the modal overlay that appears choose "Signup Form", then click "Begin" under "Embedded Form"
 
-![Les engagements](/uploads/mailchimp.jpg "Les engagements")
+![Les engagements]( "Les engagements")
 
 ## 4. Get Form Action
 
