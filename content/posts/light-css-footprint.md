@@ -1,9 +1,9 @@
 ---
-title: Light CSS Footprint
-subtitle: Purge CSS Bundles Only the Required CSS
+title: Les technologies
+subtitle: 'Les differents type de frameworks utilisé. '
 category:
   - About Awake
-author: Daniel Kelly
+author: BRODAR Frederic
 date: 2019-07-29T17:30:16.858Z
 featureImage: /uploads/purge-css-hero.jpg
 ---
