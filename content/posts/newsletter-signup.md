@@ -1,15 +1,13 @@
 ---
-title: Newsletter Signup
-subtitle: Awake Integrates with Mailchimp for Easy Newsletter Management
+title: Les engagements
+subtitle: La garantie des réalisations avec un suivi à long terme
 category:
   - Third Party Integrations
-author: Daniel Kelly
+author: BRODAR Frédéric
 date: 2019-08-01T03:49:49.295Z
 featureImage: /uploads/mailchimp.jpg
 ---
-You're publishing great content! Make sure people can get it easily right in their inbox with Awake's ready to go Mailchimp integration. Follow these instructions to get your newsletter up and running
-
-## 1. Signup with Mailchimp
+## 1. L'etude du projet
 
 If you don't already have a mailchimp account, head on over to [mailchimp.com](https://mailchimp.com) and sign up (don't worry they have free tiers that will give you all you probably need).
 
@@ -21,7 +19,7 @@ Go to "Campaigns" in the main navigation of the Mailchimp dashboard and then cli
 
 From the modal overlay that appears choose "Signup Form", then click "Begin" under "Embedded Form"
 
-![Mailchimp create signup form](/uploads/screen-shot-2019-08-01-at-1.03.08-pm.png)
+![Les engagements](/uploads/mailchimp.jpg "Les engagements")
 
 ## 4. Get Form Action
 
