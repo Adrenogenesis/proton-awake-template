@@ -1,19 +1,19 @@
 ---
-title: Comments Support
-subtitle: Add Comments to Posts With Disqus
+title: Collaboration
+subtitle: Les méthodes de collaboration.
 category:
   - Third Party Integrations
-author: Daniel Kelly
+author: BRODAR Frederic
 date: 2019-07-24T19:59:59.000Z
 featureImage: /uploads/disqus-hero.jpg
 ---
-Disqus brings the power of commenting to the Awake template. It provides features like moderation, reactions, filtering, and social sharing out of the box. Best of all, it's free and super easy to setup!
+Mes compétences organisationnelles sont au service de notre collaboration. Avec les outils comme Trello ou Projeqtor, vous suivez l'avancement de votre projet en temps réel. Ce qui évite les mauvaises surprises.
 
-## Step 1
+## Trello
 
-Go to disqus.com and click on "Get Started"
+Une collaboration simple et gratuite.
 
-![Screenshot of Disqus homepage](/uploads/disqus-get-started.jpg)
+![Screenshot of Disqus homepage](/uploads/trello.png)
 
 ## Step 2
 
