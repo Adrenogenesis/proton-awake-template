@@ -1,7 +1,7 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="Mon c.v."
+      title="Mon parcours."
       subtitle="Développeur web et web mobile."
       image="/uploads/about-hero.jpg"
     ></site-hero>
@@ -11,74 +11,98 @@
           <h3>Mes compétences</h3>
           <p>
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              Je suis développeur web et web mobile, webmaster et webdesigner.
             </strong>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Autodidacte dans le domaine du numérique depuis 2014,au cours de ces
+            années je me suis forme dans le vaste domaine qu'est le numerique,
+            en abordant toutes les technologies innovantes. En 2019, j'ai obtenu
+            le Titre de développeur web et web mobile, un challenge, qui a été
+            pour moi d'une grande importance.
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>En tant que webmaster</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Je developpe votre identite numerique, votre projet personnel ou
+            professionnel est sur d'aquerir un grand potentiel avec les outils
+            dont je dispose, ainsi que mes connaissances dans les technologies
+            suivantes :
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
+          <ul>
+            <li>
+              html/css, javascript, php.
+            </li>
+            <li>
+              sql, json.
+            </li>
+          </ul>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            Une bonne preparation de votre projet est incontournable, et passe
+            par une realisation d'une maquette avec un Wireframe et un Mockup,
+            l'etablissement d'une charte graphique et un cahier des charges.
+          </p>
+          <h3>En tant que développeur</h3>
+          <p>
+            J'utilise les frameworks pour le developpement de mes applications,
+            laravel pour une utilisation specifique , et plus dans le code :
+            React native (Expo/Ionic), Angular, et Next.js, avec la conception
+            d'application mobiles sous Android et IOS.
           </p>
         </div>
-
+        <quote-card />
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Cool Stuff We Do
+                React Native
               </p>
               <p class="subtitle">
-                Sooo Cool
+                Une solution concrete.
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  width="250"
+                  height="250"
+                  :src="require('~/assets/uploads/react.png').src"
+                  :srcset="require('~/assets/uploads/react.png').srcSet"
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Other Cool Things
+                Angular
               </p>
               <p class="subtitle">
-                Just as cool
+                La simplicite.
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  width="250"
+                  height="250"
+                  :src="require('~/assets/uploads/angular.png').src"
+                  :srcset="require('~/assets/uploads/angular.png').srcSet"
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                All the cool
+                Next.js
               </p>
               <p class="subtitle">
-                that is all
+                Le futur.
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  width="250"
+                  height="250"
+                  :src="require('~/assets/uploads/next-js.png').src"
+                  :srcset="require('~/assets/uploads/next-js.png').srcSet"
+                />
               </figure>
             </article>
           </div>
